@@ -1,0 +1,39 @@
+.page-header
+  background: #E5E5E5
+  min-height: 230px
+
+  &__main-nav
+    display: grid
+    grid-template-columns: repeat(5, 1fr)
+    column-gap: 40px
+    padding: 50px 0 0 0
+  
+    &__logotype
+      width: 225px
+      height: 18px
+      grid-column: 1 / 2
+  
+    &__content
+      grid-column: 4 / -1
+      display: flex
+      flex-wrap: wrap
+      justify-self: end
+
+      &__item
+        list-style: none
+        font-family: "Manrope-SemiBold"
+        font-weight: 600
+        font-style: normal
+        font-size: 1.6rem
+        line-height: 2.4rem
+        margin: 0 35px 0 0 
+
+        &:last-child
+          margin: 0
+
+        &__link
+          text-decoration: none
+          color: rgba(0, 0, 0, 1)
+
+          &:hover
+            text-decoration: underline

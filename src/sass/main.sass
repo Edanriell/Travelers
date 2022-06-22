@@ -1,0 +1,35 @@
+@import "~normalize.css"
+
+@import "manrope"
+
+@import "page-header"
+@import "page-main"
+@import "page-footer"
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+h1,h2,h3,h4,h5,h6
+  margin: 0
+
+html
+  font-size: 62.5%
+  scroll-behavior: smooth
+
+body
+  display: grid
+  grid-template-rows: auto 1fr auto
+  min-width: 1600px
+  min-height: 100vh
+  font-family: "Manrope-Regular"
+  font-weight: 400
+  font-style: normal
+  font-size: 1.8rem
+  line-height: 2.7rem
+  color: rgba(19, 19, 19, 1)
+
+.container
+  width: 1400px
+  margin: 0 auto
